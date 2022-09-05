@@ -123,7 +123,7 @@ dependencies:
   - notebook=5.7.11=py38h578d9bd_0
   - nspr=4.30=h9c3ff4c_0
   - nss=3.69=hb5efdd6_1
-  - numpy=1.21.2=py38he2449b9_0
+  - numpy=1.23.0=py38he2449b9_0
   - ocl-icd=2.3.1=h7f98852_0
   - ocl-icd-system=1.0.0=1
   - olefile=0.46=pyh9f0ad1d_1
