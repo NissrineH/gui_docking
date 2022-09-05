@@ -1,19 +1,15 @@
 name: Docking_Interface
-channels:
-  - schrodinger
-  - conda-forge
-  - defaults
 dependencies:
-  - openbabel=3.1.1=py38hd2c4bc0_2
-  - openmm=7.6.0=py38h30ff9b7_0
-  - pdbfixer=1.8.1=pyh6c4a22f_0
-  - pip=22.2.2=pyhd8ed1ab_0
-  - py3dmol=1.7.0=pyhd8ed1ab_0
-  - pymol=2.5.2=py38hffc77be_0
-  - rdkit=2021.03.5=py38h8c3fb5a_0
+  - openbabel
+  - openmm
+  - pdbfixer
+  - py3dmol
+  - pymol
+  - rdkit
+  - pip
   - pip:
-    - mdanalysis==2.0.0
-    - meeko==0.1.dev3
-    - networkx==2.6.3
-    - prolif==0.1.17
-    - vina==1.2.2
+    - mdanalysis
+    - meeko
+    - networkx
+    - prolif
+    - vina
