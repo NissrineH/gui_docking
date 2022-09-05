@@ -1,4 +1,3 @@
-name: Docking_Interface
 channels:
   - schrodinger
   - conda-forge
@@ -222,4 +221,3 @@ dependencies:
     - threadpoolctl==2.2.0
     - tqdm==4.62.3
     - vina==1.2.2
-prefix: /home/appuser/venv/Docking_Interface
