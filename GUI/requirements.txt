@@ -1,3 +1,5 @@
+pymol
+py3Dmol
 biopython
 mdanalysis
 meeko
