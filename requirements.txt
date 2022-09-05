@@ -1,4 +1,4 @@
-name: Jupyter_Dock
+name: Docking_Interface
 channels:
   - schrodinger
   - conda-forge
