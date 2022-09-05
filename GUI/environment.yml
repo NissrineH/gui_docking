@@ -1,10 +1,9 @@
-name: streamlit
+name: Jupyter_Dock
 channels:
   - schrodinger
   - conda-forge
   - defaults
 dependencies:
-  - streamlit
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
   - alsa-lib=1.2.3=h516909a_0
@@ -123,7 +122,7 @@ dependencies:
   - notebook=5.7.11=py38h578d9bd_0
   - nspr=4.30=h9c3ff4c_0
   - nss=3.69=hb5efdd6_1
-  - numpy=1.20.0=py38he2449b9_0
+  - numpy=1.21.2=py38he2449b9_0
   - ocl-icd=2.3.1=h7f98852_0
   - ocl-icd-system=1.0.0=1
   - olefile=0.46=pyh9f0ad1d_1
@@ -218,9 +217,9 @@ dependencies:
     - mmtf-python==1.1.2
     - msgpack==1.0.2
     - networkx==2.6.3
-    - prolif==0.1.17
+    - prolif==0.3.4
     - scipy==1.7.1
     - threadpoolctl==2.2.0
     - tqdm==4.62.3
     - vina==1.2.2
-prefix: '/home/appuser/venv/bin/streamlit'
+prefix: /home/appuser/venv/bin/Jupyter_Dock
