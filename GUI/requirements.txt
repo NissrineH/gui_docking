@@ -1,8 +1,0 @@
-py3Dmol
-biopython
-mdanalysis
-meeko
-networkx
-prolif
-scipy
-vina
