@@ -1,5 +1,4 @@
 #Packages
-pip install git+https://github.com/NissrineH/Docking_Interface/blob/main/environment.yml
 import streamlit as st
 from pymol import cmd
 import py3Dmol
