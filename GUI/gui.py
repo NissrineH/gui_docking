@@ -4,7 +4,7 @@ from vina import Vina
 
 #from pymol import cmd
 #import py3Dmol
-import prolif as plf
+#import prolif as plf
 import MDAnalysis as mda
 from MDAnalysis.coordinates import PDB
 from rdkit import Chem
