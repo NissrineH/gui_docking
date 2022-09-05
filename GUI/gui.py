@@ -1,14 +1,12 @@
 #Packages
 import streamlit as st
-from vina import Vina
-
-#from pymol import cmd
-#import py3Dmol
+from pymol import cmd
+import py3Dmol
 import prolif as plf
 import MDAnalysis as mda
 from MDAnalysis.coordinates import PDB
-#from rdkit import Chem
-#from rdkit.Chem import AllChem, Draw
+from rdkit import Chem
+from rdkit.Chem import AllChem, Draw
 from openbabel import pybel
 from vina import Vina
 from meeko import MoleculePreparation
