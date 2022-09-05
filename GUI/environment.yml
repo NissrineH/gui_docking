@@ -1,4 +1,7 @@
-name: Docking_Interface
+channels:
+  - schrodinger
+  - conda-forge
+  - defaults
 dependencies:
   - openbabel
   - openmm
