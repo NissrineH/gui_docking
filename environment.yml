@@ -216,7 +216,7 @@ dependencies:
     - meeko==0.1.dev3
     - mmtf-python==1.1.2
     - msgpack==1.0.2
-    - networkx
+    - networkx==2.6.3
     - prolif==0.3.4
     - scipy==1.7.1
     - threadpoolctl==2.2.0
