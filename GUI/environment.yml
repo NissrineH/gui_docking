@@ -1,4 +1,4 @@
-name: Jupyter_Dock
+name: streamlit
 channels:
   - schrodinger
   - conda-forge
@@ -223,4 +223,4 @@ dependencies:
     - threadpoolctl==2.2.0
     - tqdm==4.62.3
     - vina==1.2.2
-prefix: /home/angel/miniconda3/envs/Jupyter_Dock
+prefix: '/home/appuser/venv/bin/streamlit'
