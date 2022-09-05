@@ -2,8 +2,8 @@
 import streamlit as st
 from vina import Vina
 
-from pymol import cmd
-import py3Dmol
+#from pymol import cmd
+#import py3Dmol
 import prolif as plf
 import MDAnalysis as mda
 from MDAnalysis.coordinates import PDB
