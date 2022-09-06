@@ -3,14 +3,14 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pymol
-  - py3dmol
-  - openbabel
-  - pdbfixer
-  - rdkit
-  - prolif
-  - mdanalysis
+  - pymol=2.5.2=py38hffc77be_0
+  - py3dmol=1.7.0=pyhd8ed1ab_0
+  - openbabel=3.1.1=py38hd2c4bc0_2
+  - pdbfixer=1.8.1=pyh6c4a22f_0
+  - rdkit=2021.03.5=py38h8c3fb5a_0
   - pip
   - pip:
-    - vina
-    - meeko
+    - mdanalysis==2.0.0
+    - prolif==0.3.4
+    - meeko==0.1.dev3
+    - vina==1.2.2
