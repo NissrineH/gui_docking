@@ -1,0 +1,21 @@
+channels: 
+  - conda-forge
+  - schrodinger
+  - rdkit
+dependencies:
+  - biopython==1.79
+  - mdanalysis==2.3.0
+  - numpy==1.23.2
+  - openbabel==3.1.1
+  - openmm==7.7.0
+  - pandas==1.4.4
+  - pdbfixer==1.8.1
+  - prolif==1.0.0
+  - py3Dmol==1.8.1
+  - pymol==2.5.4
+  - rdkit==2020.09.1.0
+  - streamlit==1.12.2
+  - pip==22.2.2
+  -pip:
+    - meeko==0.3.3
+    - vina==1.2.3
