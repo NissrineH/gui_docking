@@ -1,6 +1,6 @@
 #Packages
 import streamlit as st
-from pymol import cmd
+#from pymol import cmd
 import py3Dmol
 import prolif as plf
 import MDAnalysis as mda
