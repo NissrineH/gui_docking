@@ -16,8 +16,8 @@ import streamlit as st
 #from Bio.PDB import PDBParser, PDBIO, Select
 #from Bio.PDB import Select, PDBIO
 #from Bio.PDB.PDBParser import PDBParser
-import sys, os, random
-sys.path.insert(1, '/home/nissrine/Jupyter_Dock/GUI/utilities/')
+#import sys, os, random
+#sys.path.insert(1, '/home/nissrine/Jupyter_Dock/GUI/utilities/')
 #from utils import fix_protein, getbox, generate_ledock_file, pdbqt_to_sdf, dok_to_sdf
 import warnings
 warnings.filterwarnings("ignore")
@@ -25,7 +25,7 @@ import subprocess
 import pandas as pd
 
 #Working folder
-os.chdir('/home/nissrine/Jupyter_Dock/GUI/test/')
+#os.chdir('/home/nissrine/Jupyter_Dock/GUI/test/')
 
 bashCommand = "mkdir -p ledock_inputfiles/"
 process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
