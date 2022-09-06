@@ -1,21 +1,21 @@
 #Packages
 import streamlit as st
 #from pymol import cmd
-import py3Dmol
-import prolif as plf
-import MDAnalysis as mda
-from MDAnalysis.coordinates import PDB
-from rdkit import Chem
-from rdkit.Chem import AllChem, Draw
-from openbabel import pybel
-from vina import Vina
-from meeko import MoleculePreparation
-from meeko import obutils
-import prolif as plf
-from prolif.plotting.network import LigNetwork
-from Bio.PDB import PDBParser, PDBIO, Select
-from Bio.PDB import Select, PDBIO
-from Bio.PDB.PDBParser import PDBParser
+#import py3Dmol
+#import prolif as plf
+#import MDAnalysis as mda
+#from MDAnalysis.coordinates import PDB
+#from rdkit import Chem
+#from rdkit.Chem import AllChem, Draw
+#from openbabel import pybel
+#from vina import Vina
+#from meeko import MoleculePreparation
+#from meeko import obutils
+#import prolif as plf
+#from prolif.plotting.network import LigNetwork
+#from Bio.PDB import PDBParser, PDBIO, Select
+#from Bio.PDB import Select, PDBIO
+#from Bio.PDB.PDBParser import PDBParser
 import sys, os, random
 sys.path.insert(1, '/home/nissrine/Jupyter_Dock/GUI/utilities/')
 from utils import fix_protein, getbox, generate_ledock_file, pdbqt_to_sdf, dok_to_sdf
