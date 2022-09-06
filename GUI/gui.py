@@ -18,7 +18,7 @@ import streamlit as st
 #from Bio.PDB.PDBParser import PDBParser
 import sys, os, random
 sys.path.insert(1, '/home/nissrine/Jupyter_Dock/GUI/utilities/')
-from utils import fix_protein, getbox, generate_ledock_file, pdbqt_to_sdf, dok_to_sdf
+#from utils import fix_protein, getbox, generate_ledock_file, pdbqt_to_sdf, dok_to_sdf
 import warnings
 warnings.filterwarnings("ignore")
 import subprocess
