@@ -1,5 +1,17 @@
 #Packages
 import streamlit as st
+from pymol import cmd
+
+docking(receptor, ligands, ratio):
+    ch='C'
+    smiles=[]
+    load_receptor(receptor)
+    def load_receptor(receptor):
+    pdb_lists = [receptor] 
+    for x in pdb_lists:
+        cmd.fetch(x, type='pdb')
+        cmd.select(x)
+        cmd.delete(x)
 
 #Interface
 col1, col2, col3 = st.columns(3)
