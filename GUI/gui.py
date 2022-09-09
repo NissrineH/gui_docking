@@ -2,17 +2,19 @@
 import streamlit as st
 from pymol import cmd
 
-def load_receptor(receptor):
-    pdb_lists = [receptor] 
-    for x in pdb_lists:
-        cmd.fetch(x, type='pdb')
-        cmd.select(x)
-        cmd.delete(x)
+def load_ligands(ligands, smiles):
+    for ligand in ligands:
+        name=ligand.name
+        lines = open(name).read().splitlines()
+        for line in range(int(round((len(lines)*ratio)/100))):
+            lines[line]=lines[line].split(' ')[0]
+            smiles.append(lines[line])
+    return(smiles)
         
 def docking(receptor, ligands, ratio):
     ch='C'
     smiles=[]
-    load_receptor(receptor)
+    load_ligands(ligands, smiles)
 
 
 #Interface
