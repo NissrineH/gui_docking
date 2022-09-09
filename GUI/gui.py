@@ -1,6 +1,5 @@
 #Packages
 import streamlit as st
-from pymol import cmd
 
 def load_ligands(ligands, smiles):
     for ligand in ligands:
