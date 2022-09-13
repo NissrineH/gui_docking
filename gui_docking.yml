@@ -212,14 +212,14 @@ dependencies:
     - griddataformats==0.5.0
     - gsd==2.4.2
     - joblib==1.0.1
-    #- mdanalysis==2.0.0
+    - mdanalysis==2.0.0
     - meeko==0.1.dev3
     - mmtf-python==1.1.2
     - msgpack==1.0.2
     - networkx==2.6.3
-    #- prolif==0.1.17
+    - prolif==0.3.4
     - scipy==1.7.1
     - threadpoolctl==2.2.0
     - tqdm==4.62.3
     - vina==1.2.2
-#prefix: /home/nissrine/miniconda3/envs/gui_docking
+prefix: /home/nissrine/miniconda3/envs/gui_docking
