@@ -1,0 +1,14 @@
+Bio==1.4.0
+MDAnalysis==2.3.0
+meeko==0.3.3
+numpy==1.21.2
+openbabel==3.1.1.1
+openmm==0.2
+pandas==1.3.3
+pdbfixer==1.8.1
+prolif==1.0.0+1.g0760f65
+py3Dmol==1.8.1
+pymol==0.1.0
+rdkit==2022.3.5
+streamlit==1.12.0
+vina==1.2.3
